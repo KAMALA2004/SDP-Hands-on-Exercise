@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        position: absolute;
+        top: 140px;
+        left: 250px;
+      }
+      h3 {
+        <color:black(223, 27, 27);
+        text-align: center;
+      }
+	      p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: powderblue" class="food_image">
+          <img
+            id="titleImage"
+            src="https://domf5oio6qrcr.cloudfront.net/medialibrary/7293/unhealthy-foods.jpg"
+            alt="pic1"
+          />
+          <h1 id="titleName">I Love Foods !!</h1>
+        </div>
+        <div style="background-color: yellow" class="food_image">
+          <h3 id="favFood1">Vegetables</h3>
+          <p id="foodDescription1">Lots of vegetables keeps you healthy</p>
+          <img id="FavFood1"
+            src="https://www.cdc.gov/healthyweight/images/healthy-eating/fruit-veggies-600x300.jpg?_=85239"
+            alt="pic2"
+          />
+        </div>
+        <div style="background-color: purple" class="food_image">
+          <h3 id="favFood2">EVENING FRIES</h3>
+          <p id="foodDescription2">Prepare your own food</p>
+          <img id="Favfood2"
+            src="https://www.saveur.com/uploads/2019/07/18/LMZY76FMGJ6OTXANEJ2MWJY72I.jpg?auto=webp"
+            alt="pic3"
+          />
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood3">BIRYANI</h3>
+          <p id="FoodDescription3">Taste Of India</p>
+          <img id="Favfood3"
+            src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg"
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
